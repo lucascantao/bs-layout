@@ -16,12 +16,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     </head>
-    <body class="">
+    <body class="border vh-100">
         @include('layouts.header')
 
         @include('layouts.svg')
 
-        <main class="d-flex flex-nowrap vh-100">
+        <main class="d-flex flex-nowrap border" style="height:100%;">
 
             <div class="d-flex flex-column text-bg-dark p-3" @style("width: 280px;")>
                 <p class="align-midle mb-0">Menu</p>
