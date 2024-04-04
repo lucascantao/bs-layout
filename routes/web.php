@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SectorController;
 
 Route::get('/', function () {
-    return view('layouts.portarias.search');
+    return view('portarias.search');
 });
 
 // Setores
