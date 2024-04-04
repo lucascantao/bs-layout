@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg p-3">
+<nav class="navbar navbar-expand-lg sticky-top p-3 bg-white">
     <div class="d-flex justify-content-between align-items-center px-3 w-100">
-        <img src="{{asset('images/semas-logo.png')}}" width="256" alt="">
+        <a href="/"><img src="{{asset('images/semas-logo.png')}}" width="256" alt=""></a>
         <span class="fs-5" style="font-weight: bold">Controle de Portaria</span>
         <div>
             <i class="bi bi-person-circle"></i>

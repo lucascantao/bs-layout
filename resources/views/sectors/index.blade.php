@@ -6,7 +6,7 @@
     <i class="bi bi-archive-fill"></i>
     Setores
 </div>
-<div class="bg-white m-2 px-4 py-2" style="height: 85vh;">
+<div class="bg-white m-2 px-4 py-2">
     <div>
         @if(session()->has('success'))
             <div class="alert alert-success" id="successMessage">
