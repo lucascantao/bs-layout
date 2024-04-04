@@ -19,6 +19,11 @@
                 Relatório</a>
         </li>
         <li>
+            <a href="{{route('sector.index')}}" class="nav-link text-white align-middle">
+                <i class="bi bi-archive-fill"></i>
+                Setores</a>
+        </li>
+        <li>
             <a href="" class="nav-link text-white align-middle">
                 <i class="bi bi-people-fill"></i>
                 Gerenciar Perfis</a>
